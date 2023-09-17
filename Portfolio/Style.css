@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(10, 3, 43); */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(30, 34, 33); */
+    height: 60px;
+    color: rgb(181, 255, 251);
+
+}
+.main{
+    /* background-color: rgb(28, 26, 26); */
+    /* height:800px;
+    width: 800px; */
+}
+.left{
+    font-size: 2.5rem;
+    margin-left: 80px;
+
+}
+.right{
+    font-size: 1.5rem;
+    margin-right: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    color: rgb(181, 255, 251);
+    list-style: none;
+
+}
+body{
+    /* background-color: rgb(10, 3, 43); */
+    background-image: url("developer4.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px 800px;
+
+  
+}
+.first{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+    /* background-color:; */
+}
+.right-section{
+    background-color: aqua;
+    margin-right: 100px;
+    margin-top: 70px;
+
+}
+.left-section{
+    /* background-color: rgb(204, 204, 221); */
+     width: 50%;
+     margin-top: 70px;
+    color: rgb(181, 255, 251);
+    /* background-color: rgb(10, 3, 43); */
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#firstp{
+    font-size: 2.5rem;
+    /* margin-top: 20px; */
+    /* background-color: rgb(10, 3, 43); */
+    /* font-style:oblique; */
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#secondp{
+    font-size: 3.5rem;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#thirdp{
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#fourthp{
+    font-size: 1.5rem;
+    padding-top: 45px;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+.left-section a img{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(10, 3, 43); */
+
+}
+.left-section a+a{
+    background-color: rgb(10, 3, 43);
+    margin-left: 25px;
+}
