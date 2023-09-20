@@ -55,6 +55,8 @@ body{
 }
 .leftp{
     height: 60%;
+        margin-left: 25px;
+
 }
 .leftp h2{
 text-align: center;
